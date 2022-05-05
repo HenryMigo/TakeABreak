@@ -4,6 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid />
+        Title="MainWindow" Height="350" Width="800" ResizeMode="NoResize">
+    <!-- WindowStyle="None" -->
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="252,47,0,0" TextWrapping="Wrap" Text="Ten minute count down..."
+                   VerticalAlignment="Top" />
+        <Label Name="Timer" HorizontalAlignment="Left" Margin="252, 100, 0, 0" VerticalAlignment="Top" />
+    </Grid>
 </Window>
